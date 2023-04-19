@@ -1,0 +1,278 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.pr{
+    position: relative;
+}
+
+.pinkbtn{
+    background-color: #DD3CA7;
+    color: white;
+    border: 1px solid transparent;
+}
+.pinkbtn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+// section{
+//     width: 100vw;
+// }
+
+.head{
+    color: white;
+    background-color: #7554CF;
+    height: 100vh;
+
+    #rec1{
+        top: -30%;
+        left: 13%;
+    }
+
+    #rec2{
+        top: -28%;
+        left: 1%;
+
+    }
+
+    #rec3{
+        top: -6%;
+        left: 2%;
+    }
+
+    #rec4{
+        top: -6%;
+        left: -10%;
+    }
+
+    .headleft{
+        width: 50%;
+        color: white;
+
+    }
+
+    .headtitle{
+        padding: 10%;
+        
+        #title{
+            font-weight: 700;
+            font-size: 4rem;
+        }
+        #headsubtitle{
+            font-weight: 400;
+            font-style: 1rem;
+        }
+
+        #headlinks{
+            justify-content: flex-start;
+
+            #go{
+                width: 30%;
+                justify-content: center;
+            }
+            #go:hover{
+                #seevid{
+                    color: #5931C5;
+                
+                }
+                svg#playbtn{
+                    background-color: #5931C5;
+                    path{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .getstart{
+            padding: 2% 6%;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-right: 5%;
+        }
+        #seevid{
+            margin-left: 5%;
+
+            
+        }
+        
+
+        svg#playbtn{
+            padding: 5%;
+            border-radius: 50%;
+            background-color: white;
+            font-size: 3rem;
+            align-self: center;
+            
+            path{
+                color: #5931C5;
+            }
+        }
+
+        
+    }
+
+    .headright{
+        
+
+        #vrman{
+            width: 635px;
+            z-index: 10;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .charts{
+            border-radius: 8px;
+            padding: 1%;
+            z-index: 100;
+            position: absolute;
+            font-size: 16px;
+        }
+
+        #virtual{
+            background: linear-gradient(117.83deg, rgba(255, 255, 255, 0.4) -0.77%, rgba(255, 255, 255, 0.2) 106.52%);
+            backdrop-filter: blur(75px);
+            color: #3E228A;
+            bottom: 52%;
+            right: 8%;
+        }
+
+        #ml{
+            background: white;
+            color: #263238 ;
+            bottom: 2%;
+            right: 34%;
+        }
+    }
+}
+
+#purplemeasure{
+    color: #5931C5;
+}
+
+.whatsinstall{
+    padding: 8% 3%;
+    text-align: center;
+    .top{
+        padding: 0 24%;
+        h2{
+            color: #333333;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        p{
+            color: #898989;
+            padding: 0 1%;
+        }
+    }
+
+    #installcards{
+        justify-content: center;
+        flex-grow: 1;
+    }
+}
+
+.homeabout{
+    // justify-content: center;
+    text-align: left;
+    padding: 5%;
+    margin: 0 3%;
+
+
+
+    .right, .left{
+        padding: 0 3%;
+        width: 50%;
+        h3{
+            font-weight: 500;
+            color: #333333;
+        }
+        p{
+            color: #242424;
+        }
+        #line{
+            width: 36px;
+            height: 5px;
+            background-color: #E6402B;
+        }
+        .learn{
+            padding: 2% 4%;
+            font-weight: 400;
+            font-size: 1rem;
+
+        }
+        .learn:hover{
+            color: #DD3CA7;
+            border: 1px solid #DD3CA7;
+        }
+    }
+}
+
+.pink{
+    color: #DD3CA7
+;
+}
+
+.tabside{
+    background-color: #FCECF6;
+    text-align: center;
+    padding: 5% 0;
+    position: relative;
+    .title{
+        font-weight: 700;
+        color: #000;
+    }
+
+    .dot{
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+
+    .pdot{
+        top: 34%;
+        left: 37%;
+    }
+    .odot{
+        top: 45%;
+        left: 14%;
+    }
+    .pidot{
+        top: 41%;
+        right: 15%;
+    }
+}
+
+.testimony{
+    text-align: center;
+    padding: 5%;
+    
+    h2{
+        color: #000;
+    }
+
+}

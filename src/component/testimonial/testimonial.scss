@@ -1,0 +1,99 @@
+
+.dot.active{
+    border: 2px solid #A63569;
+}
+
+.slideStylesWidthBackground{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    width: 50%;
+    
+
+    .title{
+        font-size: 1.514rem;
+        width: fit-content;
+        text-align: center;
+        font-weight: 500;
+        color: #FFC043;
+    }
+
+    .msg{
+        color: #565656;
+    }
+
+    .star{
+        color: #FFC043;
+    }
+
+    .author{
+        font-size: 1.286rem;
+        color: #E6402B;
+        font-weight: 700;
+    }
+}
+
+
+.imgcar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 55%;
+    .imgintro{
+        height: 100%;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.sliderStyles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8%;
+    margin-right: 10%;
+    background-image: url('../../pics/googles.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrows{
+    text-align: right;
+     width: fit-content;
+     align-self: flex-end;
+}
+
+.rightArrowStyles {
+    color: #FFCB63;
+    cursor: pointer;
+    margin: 0 150%;
+}
+  
+.skipArrowStyle{
+    color: #FFCB63;
+    cursor: pointer;
+}
+
+.blank{
+    color: #ABABAB;
+    cursor: not-allowed;
+}
+
+.dotsContainerStyles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.dot{
+    margin: 5%;
+    cursor: pointer;
+}
+
+.visible{
+    display: none;
+}
