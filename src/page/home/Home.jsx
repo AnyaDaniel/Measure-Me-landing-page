@@ -22,6 +22,7 @@ import Testimonial from '../../component/testimonial/Testimonial';
 import introone from '../../pics/jessica-lewis-DeyfdybVQhA-unsplash.png'
 import introtwo from '../../pics/minh-pham-AHCmAX0k_J4-unsplash.png'
 import introthree from '../../pics/stem-t4l-wqLswHmf6j4-unsplash.png'
+import quote from '../../pics/quote.png'
 
 const Home = () => {
 
@@ -136,6 +137,7 @@ const Home = () => {
             <h2 className='title'>What <span className="pink">Our Clients</span> Have To Say About Us</h2>
             <p className="subtitle">Our clients are an integral part of our success</p><br />
             <div className="testimg">
+              <img id='quote' src={quote} />
               <Testimonial slides={slides}/>
             </div>
           </div>

@@ -170,6 +170,18 @@
             right: 1px;
         }
     }
+
+    .testimony{
+    
+        .testimg{
+    
+            img{
+                right: 0;
+                top: 40px;
+            }
+        }
+    
+    }
     
 }
 @media only screen and ( max-width: 450px ) {
@@ -250,6 +262,17 @@
             right: 65px;
         }
     }
+    .testimony{
+    
+        .testimg{
+
+            #quote{
+                right: 70px;
+            }
+        }
+
+    }
+    
     
 }
 
@@ -273,12 +296,37 @@
             right: 65px;
         }
     }
+
+    .testimony{
+    
+        .testimg{
+
+            #quote{
+                right: 50px;
+            }
+        }
+
+    }
 }
 @media only screen and ( max-width: 375px){
     .headmain{
         .headright{
             height: 65vh;
         }
+    }
+}
+
+@media only screen and ( max-width: 600px){
+    .testimony{
+    
+        .testimg{
+
+            img{
+                right: 140px;
+                top: 10px;
+            }
+        }
+
     }
 }
 
