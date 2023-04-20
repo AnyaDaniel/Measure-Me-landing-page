@@ -9,7 +9,7 @@
     border-radius: 50px;
     width: max-content;
     margin: auto;
-    padding: 0% 2%;
+    padding: 0% 30px;
   }
   .tabs {
     color: #333333;
@@ -33,7 +33,9 @@
   .active-tabs:hover{
     background: #DD3CA7;
   }
-
+.paydiv{
+  margin: 0 2%;
+}
   
 //   .active-tabs::before {
 //     content: "";

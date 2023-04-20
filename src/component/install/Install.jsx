@@ -1,6 +1,6 @@
 import React from 'react'
 import './install.scss'
-
+import './mobileinstall.scss'
 const Install = ({icon, title, words, name}) => {
   return (
     <div>

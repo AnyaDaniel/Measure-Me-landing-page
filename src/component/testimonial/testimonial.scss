@@ -17,10 +17,22 @@
         text-align: center;
         font-weight: 500;
         color: #FFC043;
+        text-align: left;
+        position: relative;
+
+        // img{
+        //     position: absolute;
+        //     top: -10px;
+        //     right: -25px;
+        // }
     }
 
     .msg{
         color: #565656;
+    }
+
+    .stardf{
+        justify-content: flex-start;
     }
 
     .star{
@@ -70,17 +82,21 @@
 .rightArrowStyles {
     color: #FFCB63;
     cursor: pointer;
-    margin: 0 150%;
 }
   
 .skipArrowStyle{
     color: #FFCB63;
     cursor: pointer;
+    margin-left: -150%;
 }
 
 .blank{
     color: #ABABAB;
     cursor: not-allowed;
+}
+
+.mleft{
+    margin-left: -150%;
 }
 
 .dotsContainerStyles{
@@ -94,6 +110,7 @@
     cursor: pointer;
 }
 
-.visible{
+.MuiAvatar-root.MuiAvatar-circular.dot.visible.active.css-7pbt6e-MuiAvatar-root{
     display: none;
+    margin-bottom: 3%;
 }

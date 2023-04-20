@@ -1,5 +1,6 @@
 import React from 'react'
 import './circles.scss'
+import './mobilecircles.scss'
 
 const Circles = () => {
   return (

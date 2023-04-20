@@ -6,6 +6,7 @@
     text-decoration: none;
 }
 
+
 a{
     color: white;
 }
@@ -43,7 +44,9 @@ ul{
 .head{
     color: white;
     background-color: #7554CF;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
+
 
     #rec1{
         top: -30%;
@@ -86,6 +89,7 @@ ul{
 
         #headlinks{
             justify-content: flex-start;
+            margin-top: 5%;
 
             #go{
                 width: 30%;
@@ -189,10 +193,6 @@ ul{
         }
     }
 
-    #installcards{
-        justify-content: center;
-        flex-grow: 1;
-    }
 }
 
 .homeabout{
@@ -201,11 +201,20 @@ ul{
     padding: 5%;
     margin: 0 3%;
 
-
+    #line{
+            width: 36px;
+            height: 5px;
+            background-color: #E6402B;
+        }
+    .aboutsee{
+            display: none;
+        }
 
     .right, .left{
         padding: 0 3%;
         width: 50%;
+
+        
         h3{
             font-weight: 500;
             color: #333333;
@@ -213,11 +222,7 @@ ul{
         p{
             color: #242424;
         }
-        #line{
-            width: 36px;
-            height: 5px;
-            background-color: #E6402B;
-        }
+        
         .learn{
             padding: 2% 4%;
             font-weight: 400;
@@ -275,4 +280,9 @@ ul{
         color: #000;
     }
 
+}
+
+// notvisible
+@media only screen and ( max-width: 850px ) {
+    
 }

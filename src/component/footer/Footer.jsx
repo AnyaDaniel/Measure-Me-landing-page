@@ -1,12 +1,25 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import './footer.scss'
+import './mobilefoot.scss'
 import cc from '../../pics/Vector.png'
 import logobg from '../../pics/logobg.png'
 import ig from '../../pics/ig.png'
 import tweeter from '../../pics/tweeter.png'
 import fb from '../../pics/fb.png'
+import KeyboardArrowUpRoundedIcon from '@mui/icons-material/KeyboardArrowUpRounded';
+
 
 const Footer = () => {
+    const [color, setColor] = useState(false)
+	const changeColor = () => {
+		if (window.scrollY >= 150) {
+			setColor(true)
+		} else {
+			setColor(false)
+		}
+	}
+	window.addEventListener ('scroll', changeColor)
   return (
     <div className='footer' >
         <div className="top">
@@ -48,6 +61,7 @@ const Footer = () => {
         <div className="bottom">
             <img src={cc} alt="" /> 2023 All Rights Reserved
         </div>
+        <a href="#head" className={color ? 'totop totopd' : 'totop'} ><KeyboardArrowUpRoundedIcon/></a>
     </div>
   )
 }

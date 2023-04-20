@@ -1,5 +1,6 @@
 import React from 'react'
 import './imagedecor.scss'
+import './mobileimage.scss'
 import { color } from 'framer-motion'
 
 const Imagdecor = ({img, squarecol}) => {

@@ -1,5 +1,6 @@
 import React from 'react'
 import './paytab.scss'
+import './mobiletab.scss'
 import CheckBoxRoundedIcon from '@mui/icons-material/CheckBoxRounded';
 
 const Paytab = ({plan, amount, writeup, check1, check2, check3, check4, cl}) => {

@@ -1,0 +1,72 @@
+@media only screen and ( max-width: 450px ) {
+    .imagedecor{
+        margin-left: 0;
+    
+        .square{
+            width: 68px;
+            height: 65px;
+        }
+    
+        .dotgrid{
+            width: 68px;
+            height: 65px;
+        }
+    
+        .img1{
+            background-size: cover;
+            width: 304px;
+            height: 212px;
+        }
+        .img2{
+            background-size: cover;
+            width: 304px;
+            height: 212px;
+            
+        }
+    }
+}
+
+@media only screen and ( max-width: 300px ) {
+    .imagedecor{
+        margin-left: 0;
+    
+        .square{
+            width: 68px;
+            height: 65px;
+        }
+    
+        .dotgrid{
+            width: 68px;
+            height: 65px;
+        }
+    
+        .img1{
+            background-size: cover;
+            width: 216px;
+            height: 212px;
+        }
+        .img2{
+            
+            background-size: cover;
+            width: 216px;
+            height: 212px;
+            
+        }
+    }
+}
+
+@media only screen and ( max-width: 1300px ) {
+    .imagedecor{
+        margin-left: 0;
+    
+        .img1{
+            width: 396px;
+            height: 302px;
+        }
+        .img2{
+            width: 396px;
+            height: 302px;
+            margin: 0;
+        }
+    }
+}

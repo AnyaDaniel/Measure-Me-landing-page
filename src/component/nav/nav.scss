@@ -2,6 +2,13 @@
     padding: 1% 5%;
     color: white;
 
+    .menuvis{
+        display: none;
+        cursor: pointer;
+        font-size: 2rem;
+
+    }
+
     // .left{
     //     margin-left: 2%;
     // }
@@ -29,7 +36,7 @@
 
         .free{
             padding: 3% 6%;
-        }
+        } 
     }
 
     .sup{
@@ -41,4 +48,11 @@
         border: 1px solid #DD3CA7;
         
     }
+}
+.navbg{
+    background-color: rgba(117, 84, 207, 0.9);
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    z-index: 50;
 }

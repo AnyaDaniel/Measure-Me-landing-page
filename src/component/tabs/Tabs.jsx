@@ -1,6 +1,8 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 import { useState, useEffect } from 'react'
 import './tabs.scss'
+import './mobiletabs.scss'
 import Paytab from '../paytab/Paytab';
 
 
@@ -33,6 +35,7 @@ const Tabs = () => {
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
           <div className="locations">
+          <motion.div className='paydiv' initial={{y: -50, x: -200}} whileInView={{ y: '0', x: 0 }} transition={{duration: 0.7, type: 'spring'}}>
             <Paytab 
               plan='Basic' 
               amount='N9,000' 
@@ -42,8 +45,9 @@ const Tabs = () => {
               check3='Free access to AR'
               check4='Unlimited access to features'
               cl='yellow'
-            />
-            <Paytab 
+            /></motion.div>
+            <motion.div className='paydiv' initial={{y: -50}} whileInView={{ y: '0' }} transition={{duration: 0.7, type: 'spring'}}>
+              <Paytab 
               plan='Standard' 
               amount='N19,000' 
               writeup='Only for members, per month' 
@@ -52,7 +56,8 @@ const Tabs = () => {
               check3='Free access to AR'
               check4='Unlimited access to features'
               cl='purple'
-            />
+            /></motion.div>
+            <motion.div className='paydiv' initial={{y: 50, x: 200}} whileInView={{ y: '0', x: 0 }} transition={{duration: 0.7, type: 'spring'}}>
             <Paytab 
               plan='Pro' 
               amount='N29,000' 
@@ -63,6 +68,8 @@ const Tabs = () => {
               check4='Unlimited access to features'
               cl='blue'
             />
+            </motion.div>
+            
           </div>
         </div>
 
@@ -70,7 +77,8 @@ const Tabs = () => {
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
           <div className="locations">
-          <Paytab 
+          <motion.div className='paydiv' initial={{y: -50, x: -200}} whileInView={{ y: '0', x: 0 }} transition={{duration: 0.7, type: 'spring'}}>
+            <Paytab 
               plan='Basic' 
               amount='N108,000' 
               writeup='Only for members, per month' 
@@ -79,7 +87,8 @@ const Tabs = () => {
               check3='Free access to AR'
               check4='Unlimited access to features'
               cl='yellow'
-            />
+            /></motion.div>
+            <motion.div className='paydiv' initial={{y: 50}} whileInView={{ y: '0' }} transition={{duration: 0.7, type: 'spring'}}>
             <Paytab 
               plan='Standard' 
               amount='N228,000' 
@@ -89,7 +98,8 @@ const Tabs = () => {
               check3='Free access to AR'
               check4='Unlimited access to features'
               cl='purple'
-            />
+            /></motion.div>
+            <motion.div className='paydiv' initial={{y: 50, x: 200}} whileInView={{ y: '0', x: 0 }} transition={{duration: 0.7, type: 'spring'}}>
             <Paytab 
               plan='Pro' 
               amount='N348,000' 
@@ -99,7 +109,7 @@ const Tabs = () => {
               check3='Free access to AR'
               check4='Unlimited access to features'
               cl='blue'
-            />
+            /></motion.div>
           </div>
         </div>
 

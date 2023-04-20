@@ -4,8 +4,8 @@ import './testimonial.scss'
 import { Avatar, backdropClasses } from '@mui/material'
 import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded';
 import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
-
-
+import quote from '../../pics/quote.png'
+import './mobiletest.scss'
 
 
 
@@ -53,9 +53,10 @@ const Log_carousel = ({ slides }) => {
             
             className="dot visible active"
           />
-        <h3 className="title">{slides[currentIndex].title}</h3><br />
+          {/* <img src={quote} alt="" /> */}
+        <h3 className="title">{slides[currentIndex].title}  </h3><br />
         <p className='msg' >{slides[currentIndex].message}</p>
-        <div className="df" style={{justifyContent: 'flex-start'}} >
+        <div className="df stardf" >
           <StarRateRoundedIcon className="star"/>
           <StarRateRoundedIcon className="star"/>
           <StarRateRoundedIcon className="star"/>
@@ -66,7 +67,7 @@ const Log_carousel = ({ slides }) => {
           <h4 className="author">{slides[currentIndex].author}</h4>
           <div className="df arrows">
             {currentIndex === 0 ? 
-              <div className="blank">
+              <div className="blank mleft left"  >
                   {/* ❱ */}
                   ❰
               </div>
@@ -77,7 +78,7 @@ const Log_carousel = ({ slides }) => {
               </div>
             }
             {currentIndex === 5 ? 
-              <div className='blank' style={{marginLeft: '150%'}} >
+              <div className='blank right'>
                   ❱
               </div>
             :
