@@ -63,6 +63,20 @@
             margin-right: 5%;
         }
     }
+    .tabside{
+        .pdot{
+            top: 170px;
+            left: 340px;
+        }
+        .odot{
+            top: 250px;
+            left: 50px;
+        }
+        .pidot{
+            top: 230px;
+            right: 50px;
+        }
+    }
 }
 
 @media only screen and ( max-width: 920px ) {
@@ -144,16 +158,16 @@
 
     .tabside{
         .pdot{
-            top: 34%;
-            left: 37%;
+            top: 170px;
+            left: 240px;
         }
         .odot{
-            top: 45%;
-            left: 14%;
+            top: 250px;
+            left: 1px;
         }
         .pidot{
-            top: 41%;
-            right: 15%;
+            top: 230px;
+            right: 1px;
         }
     }
     
@@ -224,16 +238,16 @@
     .tabside{
         padding: 5% 2%;
         .pdot{
-            top: 34%;
-            left: 37%;
+            top: 660px;
+            left: 65px;
         }
         .odot{
-            top: 45%;
-            left: 14%;
+            top: 1110px;
+            left: 300px;
         }
         .pidot{
-            top: 41%;
-            right: 15%;
+            top: 150px;
+            right: 65px;
         }
     }
     
@@ -243,6 +257,20 @@
     .headmain{
         .headright{
             height: 50vh;
+        }
+    }
+    .tabside{
+        .pdot{
+            top: 640px;
+            left: 65px;
+        }
+        .odot{
+            top: 1070px;
+            left: 300px;
+        }
+        .pidot{
+            top: 150px;
+            right: 65px;
         }
     }
 }
