@@ -1,0 +1,58 @@
+.nav{
+    padding: 1% 5%;
+    color: white;
+
+    .menuvis{
+        display: none;
+        cursor: pointer;
+        font-size: 2rem;
+
+    }
+
+    // .left{
+    //     margin-left: 2%;
+    // }
+
+    ul{
+        list-style: none;
+        width: max-content;
+        width: 45%;
+        color: white;
+
+        li{
+            padding: 0 4%;
+            color: white;
+
+            :hover{
+                color: #DD3CA7;
+                border-bottom: 2px dotted #fff;
+                
+            }
+        }
+    }
+
+    .sign{
+        width: 15%;
+
+        .free{
+            padding: 3% 6%;
+        } 
+    }
+
+    .sup{
+        padding: 3% 6%;
+        color: white;
+    }
+    .sup:hover{
+        color: #DD3CA7;
+        border: 1px solid #DD3CA7;
+        
+    }
+}
+.navbg{
+    background-color: rgba(117, 84, 207, 0.9);
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    z-index: 50;
+}

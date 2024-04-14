@@ -1,0 +1,21 @@
+
+#circleone{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    left: calc(60vw + 38px);
+    top: calc(20vh + 38px);
+    background-color: #5931c533 ;
+    position: absolute;
+}
+
+#circletwo{
+    width: 477px;
+    height: 477px;
+    left: 60vw;
+    top: 20vh;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 20px solid #5931c533 ;
+    position: absolute;
+}

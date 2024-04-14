@@ -1,0 +1,14 @@
+
+
+@media only screen and ( max-width: 1300px ) {
+    .nav{
+        .notvisible{
+            display: none;
+        }
+        .menuvis{
+            display: block;
+        }
+    }
+}
+@media only screen and ( max-width: 450px ) {
+}

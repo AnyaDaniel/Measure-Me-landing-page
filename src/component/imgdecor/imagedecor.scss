@@ -1,0 +1,46 @@
+.imagedecor{
+    position: relative;
+    padding: 5%;
+    margin-left: -3%;
+    .square{
+        position: absolute;
+        width: 88px;
+        height: 85px;
+        border-radius: 10px;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .dotgrid{
+        position: absolute;
+        width: 88px;
+        height: 85px;
+        right: -13%;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .img1{
+        background-image: url('../../pics/beach.jpg');
+        background-position: center;
+        // position: absolute;
+        // z-index: 100;
+        width: 506px;
+        height: 412px;
+        border-radius: 10px;
+        margin-left: 3%;
+        background-repeat: no-repeat;
+    }
+    .img2{
+        background-image: url('../../pics/Rectangle 521.png');
+        background-position: center;
+        // position: absolute;
+        // z-index: 100;
+        width: 506px;
+        height: 412px;
+        border-radius: 10px;
+        margin-left: 3%;
+        
+    }
+}

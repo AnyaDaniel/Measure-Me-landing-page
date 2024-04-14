@@ -1,0 +1,89 @@
+@media only screen and ( max-width: 1120px ) {
+    .sliderStyles{
+        padding: 7% 2%;
+    }
+}
+
+@media only screen and ( max-width: 850px ) {
+    .sliderStyles{
+        padding: 7% 0;
+    }
+}
+@media only screen and ( max-width: 680px ) {
+    .sliderStyles{
+        margin: 0;
+        text-align: center;
+        background-size: cover;
+    }
+    .dotsContainerStyles{
+        display: none;
+    }
+    .slideStylesWidthBackground{
+        align-content: center;
+        width: 100%;
+        text-align: center;
+        position: relative;
+
+        .title{
+            text-align: center;
+            margin: auto;
+        }
+
+        .msg{
+            padding: 0 15%;
+        }
+
+        .MuiAvatar-root.MuiAvatar-circular.dot.visible.active.css-7pbt6e-MuiAvatar-root{
+            display: block;
+            margin: auto;
+            margin-bottom: 3%;
+        }
+
+        .stardf{
+            justify-content: center;
+        }
+
+        .rightArrowStyles {
+            position: absolute;
+            top: 60%;
+            right: 0;
+            padding: 4%;
+            background-color: white;
+            border-radius: 50%;
+        }
+          
+        .skipArrowStyle{
+            position: absolute;
+            top: 60%;
+            left: 0;
+            padding: 4%;
+            margin: 0;
+            background-color: white;
+            border-radius: 50%;
+        }
+        
+        .blank{
+            position: absolute;
+            top: 60%;
+            padding: 4%;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .right{
+            right: 0;
+        }
+
+        .left{
+            left: 0;
+        }
+
+        .mleft{
+            margin-left: 0;
+        }
+
+        .authnext{
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+@media only screen and ( max-width: 450px ) {
+    .footer{
+        .top{
+            flex-direction: column;
+            text-align: left;
+            
+            .img{
+                margin-bottom: 5%;
+                width: 100%;
+            }
+    
+            ul{
+                li{
+                    margin-bottom: 5%;
+                }
+            }
+
+            .join{
+                width: 100%;
+            }
+        }
+    }
+}

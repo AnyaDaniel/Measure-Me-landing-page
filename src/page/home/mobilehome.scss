@@ -1,0 +1,332 @@
+@media only screen and ( max-width: 300px ) {
+    .headmain{
+        justify-content: center;
+
+        .headleft{
+            width: 100%;
+
+            .headtitle{
+                padding: 6%;
+                
+                #title{
+                    font-size: 2rem;
+                }
+            }
+
+            #headlinks{
+                flex-direction: column;
+                width: 100%;
+                
+                a.pinkbtn.getstart{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0;
+                }
+
+
+                a#go{
+                    width: 100%;
+                    text-align: left;
+                    margin-top: 20%;
+                }
+            }
+        }
+    }
+        .headmain .headright.l{
+            height: 50vh;
+
+            img#vrman{
+                width: 335px;
+                right: -10%;
+            }
+
+            #ml{
+                display: none;
+            }
+    
+            div#virtual{
+                right: 62%;
+                font-size: 1rem;
+                bottom: 2%;
+            }
+        }
+}
+
+@media only screen and ( max-width: 1100px ) {
+    .homeabout{
+        padding: 5% 1%;
+        margin: 0 1%;
+
+    }
+    .phone{
+        .imgspace{
+            margin-right: 5%;
+        }
+    }
+    .tabside{
+        .pdot{
+            top: 170px;
+            left: 340px;
+        }
+        .odot{
+            top: 250px;
+            left: 50px;
+        }
+        .pidot{
+            top: 230px;
+            right: 50px;
+        }
+    }
+}
+
+@media only screen and ( max-width: 920px ) {
+    .head{
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .headmain{
+        
+        flex-direction: column-reverse;
+
+        .headleft{
+            width: 100%;
+
+            .headtitle{
+                padding: 6%;
+            }
+        }
+
+        .headright{
+            position: relative;
+            height: 45vh;
+            width: 100%;
+
+            #vrman{
+                width: 535px;
+                right: 10%;
+            }
+
+            #virtual{
+                bottom: 62%;
+                right: 20%;
+            }
+    
+            #ml{
+                right: 62%;
+            }
+        }
+    }
+
+    .whatsinstall{
+        padding: 8% 0;
+        text-align: center;
+        .top{
+            padding: 0 4%;
+        }
+
+        #installcards{
+            flex-direction: column;
+        }
+    }
+
+    .homeabout{
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+
+        .aboutnotsee{
+            display: none;
+        }
+        .aboutsee{
+            display: block;
+            margin-bottom: 5%;
+        }
+
+        .right, .left{
+            padding: 0 3%;
+            width: 90%;
+        }
+    }
+
+    .phone{
+        flex-direction: column-reverse;
+
+        .imgspace{
+            margin-bottom: 5%;
+        }
+    }
+
+    .tabside{
+        .pdot{
+            top: 170px;
+            left: 240px;
+        }
+        .odot{
+            top: 250px;
+            left: 1px;
+        }
+        .pidot{
+            top: 230px;
+            right: 1px;
+        }
+    }
+
+    .testimony{
+    
+        .testimg{
+    
+            img{
+                right: 0;
+                top: 40px;
+            }
+        }
+    
+    }
+    
+}
+@media only screen and ( max-width: 450px ) {
+    .headmain{
+
+        .headleft{
+            width: 100%;
+
+            .headtitle{
+                padding: 6%;
+                margin-top: 16%;
+                
+                #title{
+                    font-size: 2rem;
+                }
+            }
+
+            #headlinks{
+                flex-direction: column;
+                width: 100%;
+                
+                a.pinkbtn.getstart{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0;
+                }
+
+
+                a#go{
+                    width: 100%;
+                    text-align: left;
+                    margin-top: 5%;
+                }
+            }
+        }
+
+        .headright{
+            position: relative;
+            height: 60vh;
+            width: 100%;
+            padding: 0;
+
+            #vrman{
+                width: 435px;
+                right: -5%;
+            }
+
+            #ml{
+                display: none;
+            }
+    
+            #virtual{
+                right: 72%;
+                bottom: 2%;
+            }
+        }
+    }
+
+    .homeabout{
+        padding: 5% 1%;
+    }
+    .phone{
+        margin-top: 10%;
+    }
+
+    .tabside{
+        padding: 5% 2%;
+        .pdot{
+            top: 660px;
+            left: 65px;
+        }
+        .odot{
+            top: 1110px;
+            left: 300px;
+        }
+        .pidot{
+            top: 150px;
+            right: 65px;
+        }
+    }
+    .testimony{
+    
+        .testimg{
+
+            #quote{
+                right: 70px;
+            }
+        }
+
+    }
+    
+    
+}
+
+@media only screen and ( max-width: 395px){
+    .headmain{
+        .headright{
+            height: 50vh;
+        }
+    }
+    .tabside{
+        .pdot{
+            top: 640px;
+            left: 65px;
+        }
+        .odot{
+            top: 1070px;
+            left: 300px;
+        }
+        .pidot{
+            top: 150px;
+            right: 65px;
+        }
+    }
+
+    .testimony{
+    
+        .testimg{
+
+            #quote{
+                right: 50px;
+            }
+        }
+
+    }
+}
+@media only screen and ( max-width: 375px){
+    .headmain{
+        .headright{
+            height: 65vh;
+        }
+    }
+}
+
+@media only screen and ( max-width: 600px){
+    .testimony{
+    
+        .testimg{
+
+            img{
+                right: 140px;
+                top: 10px;
+            }
+        }
+
+    }
+}
+

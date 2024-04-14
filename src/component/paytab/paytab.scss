@@ -1,0 +1,53 @@
+.paytab{
+    padding: 3%;
+    background-color: white;
+    margin: 0 2%;
+    border-radius: 20px;
+    .top{
+        background-color: #EBEBEB;
+        padding: 10% 12% 15% 12%;
+        border-radius: 10px;
+
+        .yellow{
+            background-color: #FFCB63;
+        }
+        .purple{
+            background-color: #7554CF;
+        }
+        .blue{
+            background-color: #4C87F3;
+        }
+
+
+        h4{
+            padding: 5% 10%;
+            width: fit-content;
+            color: white;
+            margin: auto;
+            border-radius: 48px;
+        }
+
+        h2{
+            font-weight: 700;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    .check{
+        padding: 5% 0;
+        text-align: left;
+        color: #898989;
+
+        p{
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            margin: 5% 0;
+
+            svg{
+                font-size: 1rem;
+            }
+        }
+    }
+}

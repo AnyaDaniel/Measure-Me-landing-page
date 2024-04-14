@@ -1,0 +1,21 @@
+@media only screen and ( max-width: 1120px ) {
+}
+
+@media only screen and ( max-width: 900px ) {
+    .con{
+        width: 90%;
+        margin: auto;
+
+        .icon{
+            right: 36%;
+        }
+    }
+}
+@media only screen and ( max-width: 890px ) {
+    .con{
+        margin: 5% auto;
+        .icon{
+            right: 40%;
+        }
+    }
+}
